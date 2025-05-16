@@ -1,50 +1,66 @@
 <!DOCTYPE html>
-<html prefix="og: http://ogp.me/ns#">
+<html lang="ja">
 <head>
-<meta charset="utf-8">
-<meta name="author" content="67Green">
-<meta name="description" content="渋谷区のグリーン専門店">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta property="og:title" content="67Green">
-<meta property="og:type" content="website">
-<meta property="og:url" content="http://www.example.com">
-<meta property="og:image" content="image/ogimage.jpg">
-<meta property="og:description" content="渋谷区のグリーン専門店">
-
-<title>67Green</title>
-<link href="style.css" media="all" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-
+    <meta charset="UTF-8">
+    <title>Cafe Breeze メニュー紹介</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <h1>Cafe Breeze メニュー紹介</h1>
+    </header>
 
-<header>
-<h1>67Green</h1>
-</header>
-<div>
-<nav>
-<ul>
-<li><a href="index.html">TOP</a></li>
-<li><a href="item.html">ITEM</a></li>
-<li><a href="map.html">MAP</a></li>
-</ul>
-</nav>
-<p><img src="image/main.jpg" alt="店内写真"></p>
-<main>
-<section>
-<h2>MESSAGE</h2>
+    <main>
+        <section class="menu">
+            <h2>ドリンクメニュー</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>メニュー</th>
+                        <th>説明</th>
+                        <th>価格</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>カフェラテ</td>
+                        <td>まろやかなミルクたっぷりラテ</td>
+                        <td>480円</td>
+                    </tr>
+                    <tr>
+                        <td>アメリカーノ</td>
+                        <td>すっきりとした苦味のコーヒー</td>
+                        <td>400円</td>
+                    </tr>
+                    <tr>
+                        <td>チョコレートモカ</td>
+                        <td>チョコレートソース入り甘めラテ</td>
+                        <td>520円</td>
+                    </tr>
+                    <tr>
+                        <td>抹茶ラテ</td>
+                        <td>ほろ苦い抹茶とミルクのバランス</td>
+                        <td>500円</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
 
-<p>67Greenはグリーン専門店です。<br>
-落ち着いた空間で、ゆっくりお過ごしください。</p>
-</section>
-</main>
-</div>
+        <section class="image">
+            <h2>おすすめドリンク</h2>
+            <img src="drink.jpg" alt="カフェドリンクの写真">
+        </section>
 
-<footer>
-<p>Copyright 2016 67Green.</p>
-</footer>
+        <section class="access">
+            <h2>アクセス</h2>
+            <p>東京都千代田区丸の内1丁目（東京駅周辺）</p>
+            <iframe src="https://www.google.com/maps/embed?pb=..." width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+    </main>
 
+    <footer>
+        <p>© 2025 Cafe Breeze</p>
+    </footer>
 </body>
 </html>
